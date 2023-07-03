@@ -1,0 +1,16 @@
+package com.apibook;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class BootJpa1Application {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		SpringApplication.run(BootJpa1Application.class, args);
+	}
+
+}
